@@ -95,7 +95,6 @@ document.querySelector(".cajas-mem").addEventListener("mouseover",()=>{
             }
         });
     }
-    countimg=0;
 });
 document.querySelector(".reiniciar").addEventListener("click",()=>{
     reinicio();
@@ -131,7 +130,7 @@ const mostrarOcultar = () => {
         timg[ig[0]]=true;
         timg[ig[1]]=true;
     }
-    
+    countimg=0;
 }
 const activarSonido = (audio)=>{
     let sonido = document.createElement("iframe");
